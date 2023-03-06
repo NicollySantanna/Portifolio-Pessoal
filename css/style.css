@@ -294,7 +294,9 @@ body.dark-theme{
 
 .projects_card img{
     width: 100%;
-    height: 100%;
+    height: 230px;
+    object-fit: cover;
+    
 }
 
 .projects_modal{
