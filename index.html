@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nicolly Sant'Anna</title>
+    <!-- --Favicon-- -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
+    <link rel="manifest" href="./assets/site.webmanifest">
+    <!-- --Remix Icons-- -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <!-- HEADER PROFILE -->
+    <header class="profile container">
+
+      <!-- THEME BUTTON -->
+      <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+      <div class="profile_container grid">
+        <div class="profile_data">
+          <div class="profile_border">
+            <div class="profile_perfil">
+              <img src="./assets/perfil.jpeg" alt="Foto de perfil" />
+            </div>
+          </div>
+
+          <h2 class="profile_name">Nicolly Sant'Anna</h2>
+          <h3 class="profile_profession">Full-stack developer</h3>
+
+          <ul class="profile_social">
+            <a
+              href="https://www.instagram.com/nicollysantanna/"
+              target="_blank"
+              class="profile_social-link"
+            >
+              <i class="ri-instagram-line"></i>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/nicolly-sant-anna-a31b06192/"
+              target="_blank"
+              class="profile_social-link"
+            >
+              <i class="ri-linkedin-box-line"></i>
+            </a>
+
+            <a
+              href="https://github.com/NicollySantanna"
+              target="_blank"
+              class="profile_social-link"
+            >
+              <i class="ri-github-line"></i>
+            </a>
+          </ul>
+        </div>
+
+        <div class="profile_info grid">
+          <div class="profile_info-group">
+            <h3 class="profile_info-number">1</h3>
+            <p class="profile_info-description">
+              Ano de <br />
+              trabalho
+            </p>
+          </div>
+
+          <div class="profile_info-group">
+            <h3 class="profile_info-number">+10</h3>
+            <p class="profile_info-description">
+              Projetos <br />
+              completos
+            </p>
+          </div>
+
+          <div class="profile_info-group">
+            <h3 class="profile_info-number">5</h3>
+            <p class="profile_info-description">
+              Clientes <br />
+              satisfeitos
+            </p>
+          </div>
+        </div>
+
+        <div class="profile_buttons">
+          <a
+            download=""
+            href="/pdf/NICOLLY CRISTINE SANT'ANNA DE OLIVEIRA.pdf"
+            class="button"
+            >Download CV <i class="ri-download-line"></i
+          ></a>
+
+          <div class="profile_buttons-small">
+            <a
+              href="https://api.whatsapp.com/send?phone=21974600662&text=Ol%C3%A1,%20tenho%20interesse%20no%20seu%20trabalho!"
+              target="_blank"
+              class="button button_small button_gray"
+            >
+              <i class="ri-whatsapp-line"></i>
+            </a>
+
+            <a
+              href="https://m.me/nicollysantanna"
+              target="_blank"
+              class="button button_small button_gray">
+              <i class="ri-messenger-line"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+      <section class="filters container">
+        <!-- FILTER TABS -->
+        <ul class="filters_content">
+          <button class="filters_button" data-target="#projeto">
+            Projetos
+          </button>
+
+          <button class="filters_button" data-target="#skills">
+            Skills
+          </button>
+        </ul>
+        <div class="filters_sections">
+          <!-- PROJECTS -->
+          <div class="projects_content grid filters_active" data-content id="projeto">
+            <article class="projects_card">
+              <img src="./assets/computer.jpg" alt="" />
+              <div class="projects_modal">
+                <div>
+                  <span class="projects_subtitle">NOME PROJETO</span>
+                  <h3 class="projects_title">NOME PROJETO</h3>
+                  <a href="" class="projects_button button button_small">
+                    <i class="ri-links-line"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projects_card">
+              <img src="./assets/computer.jpg" alt="" />
+              <div class="projects_modal">
+                <div>
+                  <span class="projects_subtitle">NOME PROJETO</span>
+                  <h3 class="projects_title">NOME PROJETO</h3>
+                  <a href="" class="projects_button button button_small">
+                    <i class="ri-links-line"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projects_card">
+              <img src="./assets/computer.jpg" alt="" />
+              <div class="projects_modal">
+                <div>
+                  <span class="projects_subtitle">NOME PROJETO</span>
+                  <h3 class="projects_title">NOME PROJETO</h3>
+                  <a href="" class="projects_button button button_small">
+                    <i class="ri-links-line"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projects_card">
+              <img src="./assets/computer.jpg" alt="" />
+              <div class="projects_modal">
+                <div>
+                  <span class="projects_subtitle">NOME PROJETO</span>
+                  <h3 class="projects_title">NOME PROJETO</h3>
+                  <a href="" class="projects_button button button_small">
+                    <i class="ri-links-line"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- SKILLS -->
+          <div class="skills_content grid" data-content id="skills">
+            <div class="skills_area">
+              <h3 class="skills_title">
+                Front-End developer
+              </h3>
+              <div class="skills_box">
+                <div class="skills_group">
+                  <div class="skills_data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills_name">HTML</h3>
+                      <span class="skills_level">Avançado</span>
+                    </div>
+                  </div>
+
+                  <div class="skills_data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills_name">CSS</h3>
+                      <span class="skills_level">Avançado</span>
+                    </div>
+                  </div>
+
+                  <div class="skills_data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills_name">Javascript</h3>
+                      <span class="skills_level">Intermediário</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skills_group">
+                  <div class="skills_data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills_name">React</h3>
+                      <span class="skills_level">Básico</span>
+                    </div>
+                  </div>
+
+                  <div class="skills_data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills_name">Bootstrap</h3>
+                      <span class="skills_level">Intermediário</span>
+                    </div>
+                  </div>
+
+                  <div class="skills_data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills_name">Git</h3>
+                      <span class="skills_level">Avançado</span>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+          </div>
+
+          <div class="skills_area">
+            <h3 class="skills_title">
+              Back-End developer
+            </h3>
+            <div class="skills_box">
+              <div class="skills_group">
+                <div class="skills_data">
+                  <i class="ri-checkbox-circle-line"></i>
+
+                  <div>
+                    <h3 class="skills_name">Node.JS</h3>
+                    <span class="skills_level">Intermediário</span>
+                  </div>
+                </div>
+
+                <div class="skills_data">
+                  <i class="ri-checkbox-circle-line"></i>
+
+                  <div>
+                    <h3 class="skills_name">MongoDB</h3>
+                    <span class="skills_level">Básico</span>
+                  </div>
+                </div>
+
+                <div class="skills_data">
+                  <i class="ri-checkbox-circle-line"></i>
+
+                  <div>
+                    <h3 class="skills_name">MySql</h3>
+                    <span class="skills_level">Básico</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skills_group">
+                <div class="skills_data">
+                  <i class="ri-checkbox-circle-line"></i>
+
+                  <div>
+                    <h3 class="skills_name">Firebase</h3>
+                    <span class="skills_level">Básico</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+        </div>
+
+        </div>
+      </div>
+
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer container">
+
+      <span class="footer_copy">
+        &#169; Nicolly Sant'Anna. Todos os direitos reservados
+      </span>
+
+    </footer>
+
+    <!-- SCROLLREVEAL -->
+    <script src=""></script>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
